@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <title>CiTIM Grupo XB</title>
+    <link rel="stylesheet" href="css/problemaStem.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <script src="js/calcularStem.js"></script>
+</head>
+<body>
+  <section class="wrapper">
+    <header>
+      <h1 class="logo"><a href="stem.html">CiTIM</a></h1>
+      
+    </header>
+    <section id="contenedor">
+      <section  class="problema">
+        <h2>Problema: Diametro del Sol y distancia entre La Tierra y El Sol</h2>
+        <p>Descripción:Suponer que la Tierra es una esfera de 1 cm de diámetro (recordar que su diámetro medio es 6.37 x 10 6 m). Usando la escala anterior, ¿cuál sería el valor de las siguientes magnitudes?</p>
+       
+        </p>
+      </section>
+      <section  class="esquemaProblema">
+        <h2>Esquema</h2>
+        <center>
+        <img class="imgProblema" src="images/problema.png">
+        </center>
+      </section>
+      <section class="formulas">
+        <h2>Fórmulas</h2>
+        La fórmula para calcular la distancia entre la Tierra y el Sol es la ley de la gravitación universal de Newton:
+        <br>
+        F = G * (m1 * m2) / d^2
+        <br>
+        Para calcular el diámetro del Sol, podemos utilizar la fórmula de la circunferencia:
+        <br>
+        C = 2 * pi * r
+      </section>
+      <section class="datos">
+        <h2>Datos:</h2>
+        Masa de la Tierra (m1): 5.97 x 10^24 kg <br>
+        Masa del Sol (m2): 1.99 x 10^30 kg <br>
+        Distancia entre la Tierra y el Sol: 149.6 x 10^6 km (o 149.6 x 10^9 m) <br>
+        Radio de la Tierra: 6.37 x 10^6 m
+      </section>
+      <section class="calculos">
+        <h2>Solución</h2>
+        <p>(a) El diámetro del Sol.<br>
+          Para calcular el diámetro del Sol, podemos utilizar la fórmula de la circunferencia: <br>
+          C = 2 * pi * r <br>
+           pi es la constante matemática pi (aproximadamente 3.1416) y r es el radio del Sol.
+        </p>
+        <p>
+          (b) La distancia entre la Tierra y el Sol. <br>
+          Para calcular la distancia entre la Tierra y el Sol, podemos despejar "d" en la ecuación de la ley de la gravitación universal de Newton: <br>
+        </p>
+        
+        <button onclick="calcula_densidad();">Presiona para calcular</button>
+      </section>
+      <section class="resultado">
+        <h2>Resultado:</h2>
+        <div id="resultadoA"></div>
+      </section>
+    </section>
+    <footer class="pie">
+     Elaborado por: Gabriel Luna Bueno, N°Control: 20091122, Semestre:6, ISC
+    </footer>
+  </section>
+</body>
+</html>
